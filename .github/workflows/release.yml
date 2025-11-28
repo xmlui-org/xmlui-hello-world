@@ -1,0 +1,35 @@
+name: Release Zip
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Create zip archive
+        run: |
+          zip -r xmlui-hello-world.zip Main.xmlui components index.html start.sh start.bat xmlui README.md
+
+      - name: Publish release assets
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          files: xmlui-hello-world.zip
+          body: |
+            Instructions:
+            - Download xmlui-hello-world.zip from the assets below and unzip it into a test folder.
+            - On macOS/Linux run: ./start.sh.
+            - On Windows run: start.bat.
+            - Visit localhost:8080
+

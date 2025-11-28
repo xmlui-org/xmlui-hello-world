@@ -1,0 +1,14 @@
+<App>
+
+<HStack>
+  <Text>Greet everyone</Text>
+  <Hello />
+</HStack>
+
+<HStack verticalAlignment="center">
+  <Text>Greet someone</Text>
+  <TextBox id="person" width="10rem" initialValue="Elvis"/>
+  <Hello person="{person.value}"/>
+</HStack>
+
+</App>
