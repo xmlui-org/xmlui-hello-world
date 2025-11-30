@@ -40,3 +40,5 @@ jobs:
             - On macOS/Linux run: ./start.sh.
             - On Windows run: start.bat.
             - Visit localhost:8080
+
+            You can also run it directly in a [playground](https://playground.xmlui.org/#/playground/#H4sIAAAAAAAAE2VTTW%2FbMAz9KxpRoBenSYHtYjgZum5odygGrEV3mHpQLcYWIpOCLDtuA%2F%2F3QbbjrO2NH4%2FvPZHQAeqgSCvLhJAeQDkHKWRXzm0kScpu74PKdxtJQmQP2IXNjUcMAlv0L0yYLYfi0L5Fa1ksN5Ky5Tw2U4gWfTC5slfWFFQhhbWEHCmgl%2FCBv%2BYK39HH6Bt3wui1BIe%2BZpIg9kaHci3hcuWxkiAMmWCUfVS2wbWEH7Y1tYTl%2Fw7H2bWEwxhdtBHcj6i31pfHPUACOVeOCSnUkP6F7PqYClJVlBrIh6dIyibbo%2BBBnDnPrr6Y9CxSEUrx9W1ZpOL8D3urz0X%2FKWpPHDGcxTaS4Cl6oa0p4r1CiRVGRwcwGlLoKtsYSMBjzY3PY%2BvQJyPsUfmYwpYpLGrzipDC5RfXQQLP3N2XSvN%2B8ZNcEyCFs1OpriBSMA1sYE1Rhln7SPqs8l3huSF9zZb94o61st%2BNslxACvvSBIw671B5ifkO9eK30oZvPDfulwuGKRrIB4TzplL%2BZfF5tYK%2BT0Arv%2FsgPkLRe%2FanSa2oQD8N9v1TnOaBfdyC6VA%2FRBZIt8rWmEC9V86hnnPnsTW4v2N9wrA3SEFNJkv25pUpKAsJqDyYFifK%2BRJTdfhf0%2B6GAwakuOf44fr%2BH%2BRrqVKHAwAA)
