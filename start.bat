@@ -22,6 +22,12 @@ if %errorlevel%==0 (
   exit /b %errorlevel%
 )
 
+where xmlui >nul 2>&1
+if %errorlevel%==0 (
+  xmlui serve .
+  exit /b %errorlevel%
+)
+
 echo No Python or Node found. You can:
 echo   1^) Install Node: https://nodejs.org
 echo   2^) Install Python: https://python.org/downloads/ (check "Add Python to PATH" on Windows)

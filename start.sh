@@ -20,6 +20,11 @@ if command -v python >/dev/null 2>&1; then
   exit 0
 fi
 
+if command -v xmlui >/dev/null 2>&1; then
+  xmlui serve .
+  exit 0
+fi
+
 cat <<'EOF'
 No Python or Node found. You can:
   1) Install Node: https://nodejs.org
