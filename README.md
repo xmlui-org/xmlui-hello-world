@@ -1,3 +1,3 @@
 # xmlui-hello-world
 
-You can run this basic XMLUI demo locally
+The simplest XMLUI app to get you started.
