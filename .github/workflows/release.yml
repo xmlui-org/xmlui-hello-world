@@ -21,7 +21,7 @@ jobs:
 
       - name: Create zip archive
         run: |
-          zip -r xmlui-hello-world.zip Main.xmlui components index.html xmlui README.md
+          zip -r xmlui-hello-world.zip Main.xmlui xmlui/* components index.html xmlui README.md
 
       - name: Publish release assets
         uses: softprops/action-gh-release@v1
